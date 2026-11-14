@@ -1,0 +1,14 @@
+# Defaults for T08 — see docs/tracks/T08.md
+# Pipeline must write out/actions.csv. Freeze params BEFORE looking at eval results.
+track: t08
+input: fixtures/t08_deletion
+pred_file: actions.csv
+params:
+  dry_run: true
+  budget: 30
+  allowed_actor: data-platform
+  propagate_legal_hold: false
+  resume: true
+  reference_time: "2026-11-14T15:00:00+07:00"
+  sla_warn_days: 25
+eval_params: {}

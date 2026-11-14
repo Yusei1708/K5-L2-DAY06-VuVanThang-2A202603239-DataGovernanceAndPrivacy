@@ -1,0 +1,3 @@
+ts,scope,status,canonical,reason_code,reason,owner,evidence
+2026-11-14T07:53:26+00:00,t08,HOLD,HOLD,T08_EXCEPTIONS_PENDING_HUMAN_REVIEW,Dry-run isolated 30 exception rows pending human review sign-off in review_queue_reviewed.csv.,VuVanThang (2A202603239 - Data Governance Lead),out/poc/actions.csv;out/poc/audit_log.jsonl;out/poc/review_queue.csv;out/poc/dry_run_summary.json;out/poc/sla_summary.json
+2026-11-14T07:53:28+00:00,t08,GO,GO,T08_DRY_RUN_REVIEWED_GO,"Dry-run validated 158 lineage pairs (128 delete, 2 legal hold, 28 escalate) with human review sign-off (30 items) and full audit trail.",VuVanThang (2A202603239 - Data Governance Lead),out/poc/actions.csv;out/poc/audit_log.jsonl;out/poc/review_queue.csv;out/poc/dry_run_summary.json;out/poc/sla_summary.json

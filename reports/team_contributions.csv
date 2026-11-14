@@ -1,0 +1,2 @@
+member,git_author_name,git_email,role,modules_files,commit_shas,evidence_note,presenter
+Member 1 (VuVanThang - 2A202603239),VuVanThang,Yusei1708@users.noreply.github.com,Lead / Integrator / Core & QA,"configs/lab.yaml; configs/tracks/t08.yaml; src/pipeline.py; src/t08_deletion.py; src/baseline_t08.py; tests/test_t08_poc.py; reports/; demo/",main (1 commit; tags: demo-180m / final-24h),Hoan thanh 100% pipeline T08 (BFS lineage + policy precedence + HITL review/audit + dry-run/checkpoint/SLA) + 5/5 unit tests + bao cao & demo,yes

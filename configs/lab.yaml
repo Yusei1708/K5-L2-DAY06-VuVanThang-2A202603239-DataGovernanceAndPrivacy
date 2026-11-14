@@ -1,0 +1,16 @@
+# ============================================================
+# Group config — EDIT ME (one per group). Values here override
+# the track defaults loaded from `track_config`.
+# ============================================================
+group_id: G08_VuVanThang_2A202603239
+owner: "VuVanThang (2A202603239 - Data Governance Lead)"
+track_config: tracks/t08.yaml
+track: t08
+input: fixtures/t08_deletion
+output: out/
+seed: 42
+offline: true                     # demo/eval must not touch the network
+strict_provenance: true           # fail if manifest.csv hashes do not match
+
+# Track params (merged over track_config.params). Freeze before evaluation.
+params: {}
